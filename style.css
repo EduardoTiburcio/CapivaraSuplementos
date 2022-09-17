@@ -5,7 +5,6 @@
     padding: 0px;
 }
 
-
 div#callattention {
     font-family: 'IBM Plex Mono', monospace;
     font-size: 15px;
@@ -59,31 +58,57 @@ ul {
     color: white;
     list-style-type: none;
     display:inline-flex
-
-    
 }
 
 li {
     padding: 15px 34px 15px 26px; 
 }
 
-header, main, {
+header, main {
     display: block;
 }  
 
 main {
     width: 900px;
-    height: auto;
+    height: 2500px;
     margin: auto;
 }
 
-section#Produtos {
-    display: flex;
-    flex-direction: column;
-    columns: 2;
+section#Produtos {  
+    columns: 3;
+    width: 1000px;
+    height: 1500px;
+    margin: auto;   
+    text-align: center;
+}
+
+img {
+    display: inline-block;
+}
+.Vitrine {
+    display: inline-table;
+    width: 300px;
+    height: 360px;
+    justify-content: center;
     text-align: center;
     margin: auto;
-    border-color:black;
-    width: 840px;
-    height: auto;
+}
+
+.TittleProduct {
+    color: black;
+    display: inline-block;
+    width: 100%;
+    margin: auto;
+    font-size: 24px;
+}
+.PrecoVitrine {
+    columns: none;
+    color: #53C052;
+    font-size: 30px;
+    display: inline-block;
+    margin: auto;
+}
+
+.DescVitrine {
+
 }
