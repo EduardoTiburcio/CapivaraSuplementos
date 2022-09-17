@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+div#callattention {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 15px;
+    width: 100%;
+    height: 39px;
+    background-color: #EBBD1F;
+    text-align: center;
+}
+
+div#containerSearch {
+    background-color: #0547EB;
+    width: 100%;
+    height: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+div#SearchBox {
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    margin: 0px 220px 0px 105px;
+    border-radius: 25px;
+    align-items: center;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+div#SearchBox img {
+    margin-right: 30px;
+}
+
+div#Logo {
+    background-color: rgb(170, 102, 19);
+    width: 125px;
+    height: 125px; 
+    margin: 0px 0px 0px 55px;  
+}
+
+div#BarCategories {
+    background-color: #07059E;
+    width: 100%;
+    height: 50px;
+    
+}
+
+ul {
+    margin: 0px 0px 0px 75px;
+    color: white;
+    list-style-type: none;
+    display:inline-flex
+
+    
+}
+
+li {
+    padding: 15px 34px 15px 26px; 
+}
+
+header, main, {
+    display: block;
+}  
+
+main {
+    width: 900px;
+    height: auto;
+    margin: auto;
+}
+
+section#Produtos {
+    display: flex;
+    flex-direction: column;
+    columns: 2;
+    text-align: center;
+    margin: auto;
+    border-color:black;
+    width: 840px;
+    height: auto;
+}
