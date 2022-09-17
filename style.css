@@ -69,46 +69,21 @@ header, main {
 }  
 
 main {
-    width: 900px;
-    height: 2500px;
+    width: 1000px;
     margin: auto;
+    
 }
 
 section#Produtos {  
-    columns: 3;
-    width: 1000px;
-    height: 1500px;
-    margin: auto;   
-    text-align: center;
+    width: 780px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 260px 260px 260px;
+    grid-template-rows: ;
 }
 
-img {
-    display: inline-block;
-}
 .Vitrine {
-    display: inline-table;
-    width: 300px;
-    height: 360px;
-    justify-content: center;
+    width: 260px;
     text-align: center;
-    margin: auto;
-}
-
-.TittleProduct {
-    color: black;
-    display: inline-block;
-    width: 100%;
-    margin: auto;
-    font-size: 24px;
-}
-.PrecoVitrine {
-    columns: none;
-    color: #53C052;
-    font-size: 30px;
-    display: inline-block;
-    margin: auto;
-}
-
-.DescVitrine {
 
 }
