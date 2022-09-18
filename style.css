@@ -77,11 +77,33 @@ section#Produtos {
     margin: auto;
     display: grid;
     grid-template-columns: 260px 260px 260px;
-    grid-template-rows: ;
+    
 }
 
 .Vitrine {
     width: 260px;
     text-align: center;
+    padding: 15px 0px 8px 0px;
 
 }
+
+.VitrineButton {
+    width: 210px;
+    background: #015c01;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+.VitrinePreco {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    color: #015c01;
+    
+}
+
+
